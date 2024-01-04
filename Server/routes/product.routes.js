@@ -5,52 +5,27 @@ const productRouter = express.Router();
 //user routes
 
 productRouter.get("/", async (req, res) => {
-  let order, page, limit, from, till, pages, products;
-
-  if (req.query.order === "asc") {
-    order = 1;
-  } else if (req.query.order === "desc") {
-    order = -1;
-  }
-
-  let sort = req.query.sort;
-  let sortObj = {};
-  sortObj[sort] = order;
-
-  page = +req.query.page;
-  limit = +req.query.limit;
-
-  from = +req.query.from;
-  till = +req.query.till;
-
-  delete req.query.order;
-  delete req.query.sort;
-  delete req.query.page;
-  delete req.query.limit;
-  delete req.query.from;
-  delete req.query.till;
-
   try {
-    if (order && sort && from >= 0 && till > 0) {
-      products = await ProductModel.find({
-        $and: [
-          req.query,
-          { $and: [{ price: { $gte: from } }, { price: { $lte: till } }] },
-        ],
-      }).sort(sortObj);
-    } else if (from >= 0 && till > 0) {
-      products = await ProductModel.find({
-        $and: [
-          req.query,
-          { $and: [{ price: { $gte: from } }, { price: { $lte: till } }] },
-        ],
-      });
-    } else if (order && sort) {
-      products = await ProductModel.find(req.query).sort(sortObj);
-    } else {
-      products = await ProductModel.find(req.query);
-    }
+    const { order, sort, page, limit, from, till, search, ...query } = req.query;
 
+    const sortObj = sort ? { [sort]: order === "desc" ? -1 : 1 } : {};
+
+    const priceFilter = from >= 0 && till > 0 ? { price: { $gte: from, $lte: till } } : {};
+
+    const filterQuery = {
+      ...query,
+      ...priceFilter,
+      ...(search && {
+        $or: [
+          { title: { $regex: search, $options: "i" } },
+          { brand: { $regex: search, $options: "i" } },
+        ],
+      }),
+    };
+
+    let products = await ProductModel.find(filterQuery).sort(sortObj);
+
+    let pages;
     if (page > 0 && limit > 0) {
       pages = Math.ceil(products.length / limit);
       products = products.slice((page - 1) * limit, page * limit);
