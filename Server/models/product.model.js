@@ -9,5 +9,5 @@ const productSchema = mongoose.Schema({
   brand: { type: String, required: true },
 });
 
-const ProductModel = mongoose.model("earring", productSchema);
+const ProductModel = mongoose.model("product", productSchema);
 module.exports = ProductModel;

@@ -1,0 +1,802 @@
+[
+  {
+    "title": "Maroon Color Block Cut & Sew T-Shirt",
+    "brand": "Brand GESPO",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17383330/zoom_0-1604506395.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17383330/zoom_1-1604506395.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17383330/zoom_2-1604506395.jpg"
+  },
+  {
+    "title": "Black Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18471230/zoom_0-1660998744.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18471230/zoom_1-1660998744.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18471230/zoom_2-1660998744.jpg"
+  },
+  {
+    "title": "Navy Blue Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/18440698/zoom_0-1658407591.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18440698/zoom_1-1658407591.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18440698/zoom_2-1658407591.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 794,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Yellow Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 200,
+    "img1": "https://img3.junaroad.com/uiproducts/18452320/zoom_1-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Orange Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 299,
+    "img1": "https://img3.junaroad.com/uiproducts/18452321/zoom_0-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg"
+  },
+  {
+    "title": "Pink Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 599,
+    "img1": "https://img3.junaroad.com/uiproducts/18452323/zoom_0-1659179514.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452323/zoom_1-1659179514.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452323/zoom_2-1659179514.jpg"
+  },
+  {
+    "title": "Polo Neck Short Sleeved T-Shirt",
+    "brand": "Brand Allen Kniel",
+    "price": 749,
+    "img1": "https://img3.junaroad.com/uiproducts/18879115/zoom_0-1671203350.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18879115/zoom_1-1671203350.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18879115/zoom_2-1671203350.jpg"
+  },
+  {
+    "title": "Multi Colored Cotton T-Shirt",
+    "brand": "The 9192",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/18958422/zoom_0-1671800835.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18958422/zoom_1-1671800835.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18958422/zoom_2-1671800835.jpg"
+  },
+  {
+    "title": "Brown Dhoti Kurta Set With Brown Self-Design Nehru Jacket",
+    "brand": "Brand Hangup",
+    "price": 1999,
+    "img1": "https://img3.junaroad.com/uiproducts/17633334/zoom_0-1617112110.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17633334/zoom_1-1617112110.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17633334/zoom_2-1617112110.jpg"
+  },
+  {
+    "title": "Beige Solid Silk Blend Kurta Pyjama Set With Maroon Printed Nehru Jacket",
+    "brand": "Brand Benstoke",
+    "price": 1899,
+    "img1": "https://img3.junaroad.com/uiproducts/17095313/zoom_0-1592314905.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17095313/zoom_1-1592314905.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17095313/zoom_4-1592314905.jpg"
+  },
+  {
+    "title": "Golden Silk Brocade Sherwani Ethnic Wear Set",
+    "brand": " Anil Kumar Ajit Kumar",
+    "price": 1499,
+    "img1": "https://img3.junaroad.com/uiproducts/18473024/zoom_0-1661148355.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18473024/zoom_1-1661148355.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18473024/zoom_2-1661148355.jpg"
+  },
+  {
+    "title": "White Solid T-Shirt",
+    "brand": "Fleximaa",
+    "price": 499,
+    "img1": "https://img3.junaroad.com/uiproducts/16094346/zoom_0-1612625655.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16094346/zoom_1-1612625655.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16094346/zoom_2-1612625655.jpg"
+  },
+  {
+    "title": "Green Solid T-Shirt",
+    "brand": "Granat Inc",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17548042/zoom_0-1613826666.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17548042/zoom_1-1613826666.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17548042/zoom_2-1613826666.jpg"
+  },
+  {
+    "title": "Solids Cotton Men's T-Shirt",
+    "brand": "Granat Inc",
+    "price": 199,
+    "img1": "https://img3.junaroad.com/uiproducts/18906331/zoom_0-1671443552.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18906331/zoom_1-1671443552.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18906331/zoom_2-1671443552.jpg"
+  },
+  {
+    "title": "Pink Solid Short",
+    "brand": "CRIMSOUNE CLUB",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18309770/zoom_0-1648207003.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18309770/zoom_1-1648207003.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18309770/zoom_2-1648207003.jpg"
+  },
+  {
+    "title": "Blue Solid Bermuda Short",
+    "brand": "Brand Ruggers",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/15162270/zoom_0-1537523314.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/15162270/zoom_1-1537523314.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/15162270/zoom_2-1537523314.jpg"
+  },
+  {
+    "title": "Black Solid Casual Shirt",
+    "brand": "Brand Strop",
+    "price": 5599,
+    "img1": "https://img3.junaroad.com/uiproducts/18414841/zoom_0-1656159327.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18414841/zoom_1-1656159327.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18414841/zoom_2-1656159327.jpg"
+  },
+  {
+    "title": "Red Solid Casual Shirt",
+    "brand": "Brand ZAVLIN",
+    "price": 8899,
+    "img1": "https://img3.junaroad.com/uiproducts/18346511/zoom_0-1651066623.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18346511/zoom_1-1651066623.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18346511/zoom_2-1651066623.jpg"
+  },
+  {
+    "title": "Maroon Color Block Cut & Sew T-Shirt",
+    "brand": "Brand GESPO",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17383330/zoom_0-1604506395.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17383330/zoom_1-1604506395.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17383330/zoom_2-1604506395.jpg"
+  },
+  {
+    "title": "Black Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18471230/zoom_0-1660998744.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18471230/zoom_1-1660998744.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18471230/zoom_2-1660998744.jpg"
+  },
+  {
+    "title": "Navy Blue Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/18440698/zoom_0-1658407591.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18440698/zoom_1-1658407591.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18440698/zoom_2-1658407591.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 794,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Yellow Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 200,
+    "img1": "https://img3.junaroad.com/uiproducts/18452320/zoom_1-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Orange Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 299,
+    "img1": "https://img3.junaroad.com/uiproducts/18452321/zoom_0-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg"
+  },
+  {
+    "title": "Pink Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 599,
+    "img1": "https://img3.junaroad.com/uiproducts/18452323/zoom_0-1659179514.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452323/zoom_1-1659179514.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452323/zoom_2-1659179514.jpg"
+  },
+  {
+    "title": "Polo Neck Short Sleeved T-Shirt",
+    "brand": "Brand Allen Kniel",
+    "price": 749,
+    "img1": "https://img3.junaroad.com/uiproducts/18879115/zoom_0-1671203350.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18879115/zoom_1-1671203350.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18879115/zoom_2-1671203350.jpg"
+  },
+  {
+    "title": "Multi Colored Cotton T-Shirt",
+    "brand": "The 9192",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/18958422/zoom_0-1671800835.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18958422/zoom_1-1671800835.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18958422/zoom_2-1671800835.jpg"
+  },
+  {
+    "title": "Brown Dhoti Kurta Set With Brown Self-Design Nehru Jacket",
+    "brand": "Brand Hangup",
+    "price": 1999,
+    "img1": "https://img3.junaroad.com/uiproducts/17633334/zoom_0-1617112110.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17633334/zoom_1-1617112110.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17633334/zoom_2-1617112110.jpg"
+  },
+  {
+    "title": "Beige Solid Silk Blend Kurta Pyjama Set With Maroon Printed Nehru Jacket",
+    "brand": "Brand Benstoke",
+    "price": 1899,
+    "img1": "https://img3.junaroad.com/uiproducts/17095313/zoom_0-1592314905.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17095313/zoom_1-1592314905.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17095313/zoom_4-1592314905.jpg"
+  },
+  {
+    "title": "Golden Silk Brocade Sherwani Ethnic Wear Set",
+    "brand": " Anil Kumar Ajit Kumar",
+    "price": 1499,
+    "img1": "https://img3.junaroad.com/uiproducts/18473024/zoom_0-1661148355.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18473024/zoom_1-1661148355.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18473024/zoom_2-1661148355.jpg"
+  },
+  {
+    "title": "White Solid T-Shirt",
+    "brand": "Fleximaa",
+    "price": 499,
+    "img1": "https://img3.junaroad.com/uiproducts/16094346/zoom_0-1612625655.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16094346/zoom_1-1612625655.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16094346/zoom_2-1612625655.jpg"
+  },
+  {
+    "title": "Green Solid T-Shirt",
+    "brand": "Granat Inc",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17548042/zoom_0-1613826666.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17548042/zoom_1-1613826666.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17548042/zoom_2-1613826666.jpg"
+  },
+  {
+    "title": "Solids Cotton Men's T-Shirt",
+    "brand": "Granat Inc",
+    "price": 199,
+    "img1": "https://img3.junaroad.com/uiproducts/18906331/zoom_0-1671443552.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18906331/zoom_1-1671443552.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18906331/zoom_2-1671443552.jpg"
+  },
+  {
+    "title": "Pink Solid Short",
+    "brand": "CRIMSOUNE CLUB",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18309770/zoom_0-1648207003.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18309770/zoom_1-1648207003.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18309770/zoom_2-1648207003.jpg"
+  },
+  {
+    "title": "Blue Solid Bermuda Short",
+    "brand": "Brand Ruggers",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/15162270/zoom_0-1537523314.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/15162270/zoom_1-1537523314.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/15162270/zoom_2-1537523314.jpg"
+  },
+  {
+    "title": "Black Solid Casual Shirt",
+    "brand": "Brand Strop",
+    "price": 5599,
+    "img1": "https://img3.junaroad.com/uiproducts/18414841/zoom_0-1656159327.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18414841/zoom_1-1656159327.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18414841/zoom_2-1656159327.jpg"
+  },
+  {
+    "title": "Red Solid Casual Shirt",
+    "brand": "Brand ZAVLIN",
+    "price": 8899,
+    "img1": "https://img3.junaroad.com/uiproducts/18346511/zoom_0-1651066623.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18346511/zoom_1-1651066623.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18346511/zoom_2-1651066623.jpg"
+  },
+  {
+    "title": "Maroon Color Block Cut & Sew T-Shirt",
+    "brand": "Brand GESPO",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17383330/zoom_0-1604506395.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17383330/zoom_1-1604506395.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17383330/zoom_2-1604506395.jpg"
+  },
+  {
+    "title": "Black Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18471230/zoom_0-1660998744.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18471230/zoom_1-1660998744.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18471230/zoom_2-1660998744.jpg"
+  },
+  {
+    "title": "Navy Blue Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/18440698/zoom_0-1658407591.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18440698/zoom_1-1658407591.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18440698/zoom_2-1658407591.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 794,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Yellow Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 200,
+    "img1": "https://img3.junaroad.com/uiproducts/18452320/zoom_1-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Orange Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 299,
+    "img1": "https://img3.junaroad.com/uiproducts/18452321/zoom_0-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg"
+  },
+  {
+    "title": "Pink Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 599,
+    "img1": "https://img3.junaroad.com/uiproducts/18452323/zoom_0-1659179514.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452323/zoom_1-1659179514.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452323/zoom_2-1659179514.jpg"
+  },
+  {
+    "title": "Polo Neck Short Sleeved T-Shirt",
+    "brand": "Brand Allen Kniel",
+    "price": 749,
+    "img1": "https://img3.junaroad.com/uiproducts/18879115/zoom_0-1671203350.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18879115/zoom_1-1671203350.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18879115/zoom_2-1671203350.jpg"
+  },
+  {
+    "title": "Multi Colored Cotton T-Shirt",
+    "brand": "The 9192",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/18958422/zoom_0-1671800835.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18958422/zoom_1-1671800835.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18958422/zoom_2-1671800835.jpg"
+  },
+  {
+    "title": "Brown Dhoti Kurta Set With Brown Self-Design Nehru Jacket",
+    "brand": "Brand Hangup",
+    "price": 1999,
+    "img1": "https://img3.junaroad.com/uiproducts/17633334/zoom_0-1617112110.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17633334/zoom_1-1617112110.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17633334/zoom_2-1617112110.jpg"
+  },
+  {
+    "title": "Beige Solid Silk Blend Kurta Pyjama Set With Maroon Printed Nehru Jacket",
+    "brand": "Brand Benstoke",
+    "price": 1899,
+    "img1": "https://img3.junaroad.com/uiproducts/17095313/zoom_0-1592314905.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17095313/zoom_1-1592314905.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17095313/zoom_4-1592314905.jpg"
+  },
+  {
+    "title": "Golden Silk Brocade Sherwani Ethnic Wear Set",
+    "brand": " Anil Kumar Ajit Kumar",
+    "price": 1499,
+    "img1": "https://img3.junaroad.com/uiproducts/18473024/zoom_0-1661148355.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18473024/zoom_1-1661148355.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18473024/zoom_2-1661148355.jpg"
+  },
+  {
+    "title": "White Solid T-Shirt",
+    "brand": "Fleximaa",
+    "price": 499,
+    "img1": "https://img3.junaroad.com/uiproducts/16094346/zoom_0-1612625655.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16094346/zoom_1-1612625655.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16094346/zoom_2-1612625655.jpg"
+  },
+  {
+    "title": "Green Solid T-Shirt",
+    "brand": "Granat Inc",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17548042/zoom_0-1613826666.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17548042/zoom_1-1613826666.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17548042/zoom_2-1613826666.jpg"
+  },
+  {
+    "title": "Solids Cotton Men's T-Shirt",
+    "brand": "Granat Inc",
+    "price": 199,
+    "img1": "https://img3.junaroad.com/uiproducts/18906331/zoom_0-1671443552.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18906331/zoom_1-1671443552.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18906331/zoom_2-1671443552.jpg"
+  },
+  {
+    "title": "Pink Solid Short",
+    "brand": "CRIMSOUNE CLUB",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18309770/zoom_0-1648207003.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18309770/zoom_1-1648207003.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18309770/zoom_2-1648207003.jpg"
+  },
+  {
+    "title": "Blue Solid Bermuda Short",
+    "brand": "Brand Ruggers",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/15162270/zoom_0-1537523314.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/15162270/zoom_1-1537523314.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/15162270/zoom_2-1537523314.jpg"
+  },
+  {
+    "title": "Black Solid Casual Shirt",
+    "brand": "Brand Strop",
+    "price": 5599,
+    "img1": "https://img3.junaroad.com/uiproducts/18414841/zoom_0-1656159327.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18414841/zoom_1-1656159327.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18414841/zoom_2-1656159327.jpg"
+  },
+  {
+    "title": "Red Solid Casual Shirt",
+    "brand": "Brand ZAVLIN",
+    "price": 8899,
+    "img1": "https://img3.junaroad.com/uiproducts/18346511/zoom_0-1651066623.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18346511/zoom_1-1651066623.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18346511/zoom_2-1651066623.jpg"
+  },
+  {
+    "title": "Maroon Color Block Cut & Sew T-Shirt",
+    "brand": "Brand GESPO",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17383330/zoom_0-1604506395.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17383330/zoom_1-1604506395.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17383330/zoom_2-1604506395.jpg"
+  },
+  {
+    "title": "Black Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18471230/zoom_0-1660998744.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18471230/zoom_1-1660998744.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18471230/zoom_2-1660998744.jpg"
+  },
+  {
+    "title": "Navy Blue Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/18440698/zoom_0-1658407591.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18440698/zoom_1-1658407591.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18440698/zoom_2-1658407591.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 794,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Yellow Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 200,
+    "img1": "https://img3.junaroad.com/uiproducts/18452320/zoom_1-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Orange Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 299,
+    "img1": "https://img3.junaroad.com/uiproducts/18452321/zoom_0-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg"
+  },
+  {
+    "title": "Pink Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 599,
+    "img1": "https://img3.junaroad.com/uiproducts/18452323/zoom_0-1659179514.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452323/zoom_1-1659179514.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452323/zoom_2-1659179514.jpg"
+  },
+  {
+    "title": "Polo Neck Short Sleeved T-Shirt",
+    "brand": "Brand Allen Kniel",
+    "price": 749,
+    "img1": "https://img3.junaroad.com/uiproducts/18879115/zoom_0-1671203350.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18879115/zoom_1-1671203350.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18879115/zoom_2-1671203350.jpg"
+  },
+  {
+    "title": "Multi Colored Cotton T-Shirt",
+    "brand": "The 9192",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/18958422/zoom_0-1671800835.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18958422/zoom_1-1671800835.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18958422/zoom_2-1671800835.jpg"
+  },
+  {
+    "title": "Brown Dhoti Kurta Set With Brown Self-Design Nehru Jacket",
+    "brand": "Brand Hangup",
+    "price": 1999,
+    "img1": "https://img3.junaroad.com/uiproducts/17633334/zoom_0-1617112110.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17633334/zoom_1-1617112110.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17633334/zoom_2-1617112110.jpg"
+  },
+  {
+    "title": "Beige Solid Silk Blend Kurta Pyjama Set With Maroon Printed Nehru Jacket",
+    "brand": "Brand Benstoke",
+    "price": 1899,
+    "img1": "https://img3.junaroad.com/uiproducts/17095313/zoom_0-1592314905.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17095313/zoom_1-1592314905.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17095313/zoom_4-1592314905.jpg"
+  },
+  {
+    "title": "Golden Silk Brocade Sherwani Ethnic Wear Set",
+    "brand": " Anil Kumar Ajit Kumar",
+    "price": 1499,
+    "img1": "https://img3.junaroad.com/uiproducts/18473024/zoom_0-1661148355.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18473024/zoom_1-1661148355.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18473024/zoom_2-1661148355.jpg"
+  },
+  {
+    "title": "White Solid T-Shirt",
+    "brand": "Fleximaa",
+    "price": 499,
+    "img1": "https://img3.junaroad.com/uiproducts/16094346/zoom_0-1612625655.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16094346/zoom_1-1612625655.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16094346/zoom_2-1612625655.jpg"
+  },
+  {
+    "title": "Green Solid T-Shirt",
+    "brand": "Granat Inc",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17548042/zoom_0-1613826666.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17548042/zoom_1-1613826666.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17548042/zoom_2-1613826666.jpg"
+  },
+  {
+    "title": "Solids Cotton Men's T-Shirt",
+    "brand": "Granat Inc",
+    "price": 199,
+    "img1": "https://img3.junaroad.com/uiproducts/18906331/zoom_0-1671443552.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18906331/zoom_1-1671443552.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18906331/zoom_2-1671443552.jpg"
+  },
+  {
+    "title": "Pink Solid Short",
+    "brand": "CRIMSOUNE CLUB",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18309770/zoom_0-1648207003.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18309770/zoom_1-1648207003.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18309770/zoom_2-1648207003.jpg"
+  },
+  {
+    "title": "Blue Solid Bermuda Short",
+    "brand": "Brand Ruggers",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/15162270/zoom_0-1537523314.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/15162270/zoom_1-1537523314.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/15162270/zoom_2-1537523314.jpg"
+  },
+  {
+    "title": "Black Solid Casual Shirt",
+    "brand": "Brand Strop",
+    "price": 5599,
+    "img1": "https://img3.junaroad.com/uiproducts/18414841/zoom_0-1656159327.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18414841/zoom_1-1656159327.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18414841/zoom_2-1656159327.jpg"
+  },
+  {
+    "title": "Red Solid Casual Shirt",
+    "brand": "Brand ZAVLIN",
+    "price": 8899,
+    "img1": "https://img3.junaroad.com/uiproducts/18346511/zoom_0-1651066623.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18346511/zoom_1-1651066623.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18346511/zoom_2-1651066623.jpg"
+  },
+  {
+    "title": "Maroon Color Block Cut & Sew T-Shirt",
+    "brand": "Brand GESPO",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17383330/zoom_0-1604506395.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17383330/zoom_1-1604506395.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17383330/zoom_2-1604506395.jpg"
+  },
+  {
+    "title": "Black Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18471230/zoom_0-1660998744.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18471230/zoom_1-1660998744.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18471230/zoom_2-1660998744.jpg"
+  },
+  {
+    "title": "Navy Blue Checkered Casual Shirt",
+    "brand": "Solemio",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/18440698/zoom_0-1658407591.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18440698/zoom_1-1658407591.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18440698/zoom_2-1658407591.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 849,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Blue Checkered Casual Shirt",
+    "brand": "Oxolloxo",
+    "price": 794,
+    "img1": "https://img3.junaroad.com/uiproducts/16751035/zoom_0-1574855609.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Yellow Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 200,
+    "img1": "https://img3.junaroad.com/uiproducts/18452320/zoom_1-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16751035/zoom_1-1574855609.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16751035/zoom_3-1574855609.jpg"
+  },
+  {
+    "title": "Orange Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 299,
+    "img1": "https://img3.junaroad.com/uiproducts/18452321/zoom_0-1659179513.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452321/zoom_1-1659179513.jpg"
+  },
+  {
+    "title": "Pink Solid Kurta Pyjama Ethnic Wear Set",
+    "brand": "Fashion Fricks",
+    "price": 599,
+    "img1": "https://img3.junaroad.com/uiproducts/18452323/zoom_0-1659179514.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18452323/zoom_1-1659179514.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18452323/zoom_2-1659179514.jpg"
+  },
+  {
+    "title": "Polo Neck Short Sleeved T-Shirt",
+    "brand": "Brand Allen Kniel",
+    "price": 749,
+    "img1": "https://img3.junaroad.com/uiproducts/18879115/zoom_0-1671203350.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18879115/zoom_1-1671203350.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18879115/zoom_2-1671203350.jpg"
+  },
+  {
+    "title": "Multi Colored Cotton T-Shirt",
+    "brand": "The 9192",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/18958422/zoom_0-1671800835.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18958422/zoom_1-1671800835.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18958422/zoom_2-1671800835.jpg"
+  },
+  {
+    "title": "Brown Dhoti Kurta Set With Brown Self-Design Nehru Jacket",
+    "brand": "Brand Hangup",
+    "price": 1999,
+    "img1": "https://img3.junaroad.com/uiproducts/17633334/zoom_0-1617112110.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17633334/zoom_1-1617112110.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17633334/zoom_2-1617112110.jpg"
+  },
+  {
+    "title": "Beige Solid Silk Blend Kurta Pyjama Set With Maroon Printed Nehru Jacket",
+    "brand": "Brand Benstoke",
+    "price": 1899,
+    "img1": "https://img3.junaroad.com/uiproducts/17095313/zoom_0-1592314905.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17095313/zoom_1-1592314905.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17095313/zoom_4-1592314905.jpg"
+  },
+  {
+    "title": "Golden Silk Brocade Sherwani Ethnic Wear Set",
+    "brand": " Anil Kumar Ajit Kumar",
+    "price": 1499,
+    "img1": "https://img3.junaroad.com/uiproducts/18473024/zoom_0-1661148355.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18473024/zoom_1-1661148355.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18473024/zoom_2-1661148355.jpg"
+  },
+  {
+    "title": "White Solid T-Shirt",
+    "brand": "Fleximaa",
+    "price": 499,
+    "img1": "https://img3.junaroad.com/uiproducts/16094346/zoom_0-1612625655.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/16094346/zoom_1-1612625655.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/16094346/zoom_2-1612625655.jpg"
+  },
+  {
+    "title": "Green Solid T-Shirt",
+    "brand": "Granat Inc",
+    "price": 399,
+    "img1": "https://img3.junaroad.com/uiproducts/17548042/zoom_0-1613826666.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/17548042/zoom_1-1613826666.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/17548042/zoom_2-1613826666.jpg"
+  },
+  {
+    "title": "Solids Cotton Men's T-Shirt",
+    "brand": "Granat Inc",
+    "price": 199,
+    "img1": "https://img3.junaroad.com/uiproducts/18906331/zoom_0-1671443552.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18906331/zoom_1-1671443552.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18906331/zoom_2-1671443552.jpg"
+  },
+  {
+    "title": "Pink Solid Short",
+    "brand": "CRIMSOUNE CLUB",
+    "price": 899,
+    "img1": "https://img3.junaroad.com/uiproducts/18309770/zoom_0-1648207003.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18309770/zoom_1-1648207003.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18309770/zoom_2-1648207003.jpg"
+  },
+  {
+    "title": "Blue Solid Bermuda Short",
+    "brand": "Brand Ruggers",
+    "price": 1099,
+    "img1": "https://img3.junaroad.com/uiproducts/15162270/zoom_0-1537523314.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/15162270/zoom_1-1537523314.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/15162270/zoom_2-1537523314.jpg"
+  },
+  {
+    "title": "Black Solid Casual Shirt",
+    "brand": "Brand Strop",
+    "price": 5599,
+    "img1": "https://img3.junaroad.com/uiproducts/18414841/zoom_0-1656159327.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18414841/zoom_1-1656159327.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18414841/zoom_2-1656159327.jpg"
+  },
+  {
+    "title": "Red Solid Casual Shirt",
+    "brand": "Brand ZAVLIN",
+    "price": 8899,
+    "img1": "https://img3.junaroad.com/uiproducts/18346511/zoom_0-1651066623.jpg",
+    "img2": "https://img3.junaroad.com/uiproducts/18346511/zoom_1-1651066623.jpg",
+    "img3": "https://img3.junaroad.com/uiproducts/18346511/zoom_2-1651066623.jpg"
+  }
+]
