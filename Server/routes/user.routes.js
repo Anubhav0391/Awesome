@@ -2,7 +2,7 @@ const express = require("express");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const UserModel = require("../models/user.model");
-const { adminAuth } = require("../middlewares/authorization");
+const { authorization } = require("../middlewares/auth");
 
 const userRouter = express.Router();
 
@@ -75,7 +75,7 @@ userRouter.post("/login", async (req, res) => {
 
 
 //admin routes
-userRouter.use(adminAuth)
+userRouter.use(authorization)
 
 userRouter.get("/", async (req, res) => {
   try {

@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
-const userAuth = (req, res, next) => {
+const authentication = (req, res, next) => {
   const token = req.headers.authorization?.split(" ")[1];
   if (token) {
     try {
@@ -21,7 +21,7 @@ const userAuth = (req, res, next) => {
   }
 };
 
-const adminAuth = (req, res, next) => {
+const authorization = (req, res, next) => {
   const token = req.headers.authorization?.split(" ")[1];
   if (token) {
     try {
@@ -39,4 +39,4 @@ const adminAuth = (req, res, next) => {
   }
 };
 
-module.exports = { userAuth, adminAuth };
+module.exports = { authentication, authorization };
