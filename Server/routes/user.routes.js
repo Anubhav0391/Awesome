@@ -2,13 +2,18 @@ const express = require("express");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const UserModel = require("../models/user.model");
+const { adminAuth } = require("../middlewares/authorization");
 
 const userRouter = express.Router();
 
 //user routes
 
 userRouter.post("/register", async (req, res) => {
-  const { name, email, password } = req.body;
+  const { name, email, password, admin} = req.body;
+
+  if (!name || !email || !password || admin === undefined) {
+    return res.status(400).send({ err: "All fields are required." });
+  }
 
   try {
     bcrypt.hash(password, 5, async (err, hash) => {
@@ -22,6 +27,7 @@ userRouter.post("/register", async (req, res) => {
           let user = new UserModel({
             name,
             email,
+            admin,
             password: hash,
           });
           await user.save();
@@ -37,19 +43,23 @@ userRouter.post("/register", async (req, res) => {
 userRouter.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
+  if (!email || !password) {
+    return res.status(400).send({ err: "All fields are required." });
+  }
+
   try {
     const user = await UserModel.findOne({ email });
     if (user) {
       bcrypt.compare(password, user.password, (_, result) => {
         if (result) {
           const token = jwt.sign(
-            { userId: user._id, user: user.name },
+            { userId: user._id, user: user.name, admin: user.admin },
             process.env.key
           );
           res.status(200).send({
             msg: `Login Successful`,
-            token: token,
-            user: user,
+            token,
+            user,
           });
         } else {
           res.status(400).send({ msg: "Wrong Password" });
@@ -63,7 +73,9 @@ userRouter.post("/login", async (req, res) => {
   }
 });
 
+
 //admin routes
+userRouter.use(adminAuth)
 
 userRouter.get("/", async (req, res) => {
   try {

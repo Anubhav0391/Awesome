@@ -1,5 +1,6 @@
 const express = require("express");
 const ProductModel = require("../models/product.model");
+const { adminAuth } = require("../middlewares/authorization");
 const productRouter = express.Router();
 
 //user routes
@@ -54,6 +55,7 @@ productRouter.get("/:id", async (req, res) => {
 });
 
 //admin routes
+productRouter.use(adminAuth)
 
 productRouter.post("/", async (req, res) => {
   try {
