@@ -2,7 +2,6 @@ import { ReactNode } from 'react';
 import logo from '../Images/awesome logo.png';
 import {
   Box,
-  Center,
   Container,
   Link,
   SimpleGrid,
@@ -12,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 
 
-const ListHeader = ({ children }: { children: ReactNode }) => {
+const ListHeader = ({ children }) => {
   return (
     <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
       {children}
@@ -22,8 +21,6 @@ const ListHeader = ({ children }: { children: ReactNode }) => {
 
 export default function Footer() {
   return (
-    // <Center>
-
     <Box
       bg={'white'} marginTop={10}
       color={useColorModeValue('gray.700', 'gray.200')}>
@@ -74,6 +71,5 @@ export default function Footer() {
         </SimpleGrid>
       </Container>
     </Box>
-//   </Center>
   );
 }

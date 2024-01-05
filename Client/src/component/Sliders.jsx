@@ -58,7 +58,7 @@ export function Swipe() {
     arrows: false,
     infinite: true,
     centerPadding: "59px",
-    slidesToShow: 5,
+    slidesToShow: 8,
     swipeToSlide: true,
     afterChange: function (index) {
       console.log(

@@ -4,9 +4,18 @@ const homeRouter = express.Router();
 
 //user routes
 
-homeRouter.get("/", async (_, res) => {
+homeRouter.get("/", async (req, res) => {
   try {
-    const products = await HomeModel.find();
+    const {page, limit } = req.query;
+
+    let products = await HomeModel.find();
+    
+    if (page > 0 && limit > 0) {
+      products = products.slice((page - 1) * limit, page * limit);
+    } else if (page <= 0 || limit <= 0) {
+      products = [];
+    }
+
     res.status(200).send(products);
   } catch (err) {
     res.status(400).send({ err: err.message });

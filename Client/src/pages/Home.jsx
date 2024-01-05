@@ -2,10 +2,7 @@ import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
 import HomeCard from "../component/HomeCard";
-// import InfiniteScroll from 'react-infinite-scroll-component'
 import PauseOnHover, { Swipe } from "../component/Sliders";
-// import AvatarRow from "../component/Avatar";
-import axios from "axios";
 import {
   Center,
   SimpleGrid,
@@ -13,38 +10,32 @@ import {
   Container,
   Spinner,
   Skeleton,
+  Heading,
 } from "@chakra-ui/react";
+import { useDispatch, useSelector } from "react-redux";
+import { getHome } from "../Redux/UserReducer/action";
 
 const Home = () => {
-  const [data, setData] = useState([]);
   const [limit, setLimit] = useState(6);
-  const [loading, setLoading] = useState(false);
-
-  const getData = () => {
-    setLoading(true);
-
-    axios
-      .get(`https://weak-gold-gazelle-suit.cyclic.app?limit=${limit}&page=1`)
-      .then((res) => {
-        setData(res.data);
-        setLoading(false);
-      });
-  };
+  const dispatch = useDispatch();
+  const { loading, error, home } = useSelector((store) => store.UserReducer);
 
   const handleLimit = () => {
-      if (limit > 50) {
-        setLimit(9);
-      } else {
-        setLimit((prev) => prev + 3);
-      }
+    if (limit > 50) {
+      setLimit(9);
+    } else {
+      setLimit((prev) => prev + 3);
+    }
   };
 
   useEffect(() => {
-    getData();
+    dispatch(getHome({ params: { page: 1, limit } }));
   }, [limit]);
 
-  return (
-    <Container maxW="950px">
+  return error ? (
+    <Heading my={320} color={'red'}>Something bad happened. Please try again !</Heading>
+  ) : (
+    <Container maxW="1200px">
       <Swipe />
       <PauseOnHover />
       <Center>
@@ -57,7 +48,7 @@ const Home = () => {
             ? new Array(9).fill(0).map(() => {
                 return <Skeleton height={"350px"} width={"300px"} />;
               })
-            : data?.map((el) => {
+            : home?.map((el) => {
                 return (
                   <HomeCard
                     designer={el.designer}

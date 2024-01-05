@@ -12,12 +12,12 @@ import React from "react";
 
 const HomeCard = ({ designer, followers, id, image, likes }) => {
   return (
-    <Card maxW="300px" boxShadow="base" maxH="360px">
-      <Image objectFit="cover" m={2} src={image} alt="Image deleted" />
+    <Card maxW="400px" boxShadow="base" >
+      <Image objectFit="cover" m={2} src={image?image:'alternative.png'} alt="Image deleted" />
 
-      <div>
+      <Box>
         <HStack gap={6}>
-          <Box p="0 0 100px 15px">
+          <Box p="0 0 8px 15px">
             <Text fontSize="14" fontWeight="600">
               By {designer}
             </Text>
@@ -39,6 +39,7 @@ const HomeCard = ({ designer, followers, id, image, likes }) => {
           bottom="35px"
           p={'4px'}
           borderRadius="50%"
+          cursor={'pointer'}
           boxShadow={'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'}
         >
           <CiHeart  color= "#E91E63" fontSize= "45px"/>
@@ -47,6 +48,7 @@ const HomeCard = ({ designer, followers, id, image, likes }) => {
           position="absolute"
           bg="white"
           borderRadius="50%"
+          cursor={'pointer'}
           boxShadow={'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px'}
           p={'7px'}
           right="19px"
@@ -54,7 +56,7 @@ const HomeCard = ({ designer, followers, id, image, likes }) => {
         >
           <FaWhatsapp color= "#8BC34A" fontSize= "40px" />
         </Box>
-      </div>
+      </Box>
     </Card>
   );
 };

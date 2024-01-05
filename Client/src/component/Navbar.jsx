@@ -3,7 +3,7 @@ import profile from "../Images/profile.PNG";
 import cart from "../Images/bag.PNG";
 import search from "../Images/search.PNG";
 import "../styles/navbar.css";
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { SearchIcon } from "@chakra-ui/icons";
 import {
   Tag,
@@ -28,12 +28,11 @@ import {
   PopoverFooter,
   Img,
 } from "@chakra-ui/react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [text, setText] = useState("");
-  const navigate = useNavigate();
 
   return (
     <div>
