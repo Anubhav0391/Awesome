@@ -2,17 +2,17 @@ import { Box, Center } from "@chakra-ui/react";
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
 import AllRoutes from "./Routes/Routes";
+import { useState } from "react";
 
 function App() {
+  const [opacity, setOpacity] = useState(1);
   return (
     <>
-      <Navbar />
+      <Navbar setOpacity={setOpacity} />
       <Box
+        opacity={opacity}
         position="relative"
         top="70px"
-        left="0"
-        right="0"
-        bottom="0"
         bg="#ECEFF1"
         paddingTop={10}
       >

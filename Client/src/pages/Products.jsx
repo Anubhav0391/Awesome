@@ -9,13 +9,13 @@ import {
   Container,
   Skeleton,
   Spinner,
-  HStack,
   Box,
   Heading,
 } from "@chakra-ui/react";
 import SideBar from "../component/SideBar";
 import { getProduct } from "../Redux/UserReducer/action";
 import { useDispatch, useSelector } from "react-redux";
+import { useSearchParams } from "react-router-dom";
 
 const Products = ({gender}) => {
   const [limit, setLimit] = useState(9);
@@ -25,10 +25,19 @@ const Products = ({gender}) => {
   const { loading, error, products } = useSelector(
     (store) => store.UserReducer
   );
+  const [searchParams,setSearchParams]=useSearchParams()
 
   useEffect(() => {
-    const params={gender, page: 1, limit }
+    const params={ page: 1, limit }
     
+    if(gender){
+      params.gender=gender;
+    }
+
+    if(searchParams.get('search')){
+      params.search=searchParams.get('search');
+    }
+
     if(order){
       params.sort='price';
       params.order=order
@@ -43,7 +52,7 @@ const Products = ({gender}) => {
         params,
       })
     );
-  }, [limit, order, brand,gender]);
+  }, [limit, order, brand,gender,searchParams.get('search')]);
 
   const handleLimit = () => {
     if (limit > 100) {
@@ -59,11 +68,10 @@ const Products = ({gender}) => {
     </Heading>
   ) : (
     <Container maxW="90vw">
-      {/* <HStack> */}
       <SideBar setBrand={setBrand} setOrder={setOrder} />
       <Box ml={[0,0,0,'250px','250px','250px']}>
         <Text color={"gray"} fontSize="14" marginBottom={5}>
-          Home » Men » clothing » top wear
+          Home » {gender=='male'?"Men":"Women"} » clothing » top wear
         </Text>
         <SimpleGrid columns={[1, 2, 2, 2, 3, 3]} spacing={[3, 3, 5, 5, 5, 5]}>
           {loading
@@ -86,7 +94,6 @@ const Products = ({gender}) => {
               })}
         </SimpleGrid>
       </Box>
-      {/* </HStack> */}
       <Center>
         <Button color="#E91E63" onClick={handleLimit} m={3} bg="#FFEBEE">
           {loading ? <Spinner mx={10} /> : "SHOW MORE"}

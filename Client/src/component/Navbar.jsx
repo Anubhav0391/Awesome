@@ -28,11 +28,12 @@ import {
   PopoverFooter,
   Img,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ setOpacity }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [text, setText] = useState("");
+  const navigate=useNavigate()
 
   return (
     <div>
@@ -50,7 +51,11 @@ const Navbar = () => {
               <i className="fas fa-times"></i>
             </label>
             <li>
-              <Link to={'/women'}>
+              <Link
+                to={"/women"}
+                onMouseOver={() => setOpacity(0.4)}
+                onMouseLeave={() => setOpacity(1)}
+              >
                 <a href="#" className="desktop-item">
                   WOMEN
                 </a>
@@ -244,7 +249,11 @@ const Navbar = () => {
               </div>
             </li>
             <li>
-              <Link to="/men">
+              <Link
+                to="/men"
+                onMouseOver={() => setOpacity(0.4)}
+                onMouseLeave={() => setOpacity(1)}
+              >
                 <a href="#" className="desktop-item">
                   MEN
                 </a>
@@ -253,204 +262,6 @@ const Navbar = () => {
               <label htmlFor="showMega" className="mobile-item">
                 <Link to="/men">MEN</Link>
               </label>
-              <div className="mega-box">
-                <div className="content">
-                  <div className="row">
-                    <ul className="mega-links">
-                      <li>
-                        <Tag h={10}>
-                          <a href="#">Ethintic Wear</a>
-                        </Tag>
-                      </li>
-                      <li>
-                        <a href="#">Kurta Kurtis</a>
-                      </li>
-                      <li>
-                        <a href="#">Sarees</a>
-                      </li>
-                      <li>
-                        <a href="#">Ethnic Sets</a>
-                      </li>
-                      <li>
-                        <a href="#">Suits & Dress Materials</a>
-                      </li>
-                      <li>
-                        <a href="#">Lehengas</a>
-                      </li>
-                      <li>
-                        <a href="#">Blouses</a>
-                      </li>
-                      <li>
-                        <a href="#">Dupattas</a>
-                      </li>
-                      <li>
-                        <a href="#">Ethnic Dresses</a>
-                      </li>
-                      <li>
-                        <Tag h={10}>
-                          <a href="#">Bags & Wallets</a>
-                        </Tag>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="row">
-                    <ul className="mega-links">
-                      <li>
-                        <Tag h={10}>
-                          <a href="#">Western Wear</a>
-                        </Tag>
-                      </li>
-                      <li>
-                        <a href="#">Tops</a>
-                      </li>
-                      <li>
-                        <a href="#">Dresses</a>
-                      </li>
-                      <li>
-                        <a href="#">Tees</a>
-                      </li>
-                      <li>
-                        <a href="#">Suits & Dress Materials</a>
-                      </li>
-                      <li>
-                        <a href="#">Shirts</a>
-                      </li>
-                      <li>
-                        <a href="#">Blouses</a>
-                      </li>
-                      <li>
-                        <a href="#">Tunics</a>
-                      </li>
-                      <li>
-                        <a href="#">Jumpsuits</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="row">
-                    <ul className="mega-links">
-                      <li>
-                        <Tag h={10}>
-                          <a href="#">Activewear</a>
-                        </Tag>
-                      </li>
-                      <li>
-                        <a href="#">Swim Wear</a>
-                      </li>
-                      <li>
-                        <a href="#">Topwear</a>
-                      </li>
-                      <li>
-                        <a href="#">Bottomwear</a>
-                      </li>
-                      <li>
-                        <a href="#">Suits & Dress Materials</a>
-                      </li>
-                      <li>
-                        <a href="#">Lehengas</a>
-                      </li>
-                      <li>
-                        <a href="#">Blouses</a>
-                      </li>
-                      <li>
-                        <a href="#">Dupattas</a>
-                      </li>
-                      <li>
-                        <Tag h={10}>
-                          <a href="#">Belts & Watches</a>
-                        </Tag>
-                      </li>
-                      <li>
-                        <Tag h={10}>
-                          <a href="#">Sunglasses & Hats</a>
-                        </Tag>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="row">
-                    <ul className="mega-links">
-                      <li>
-                        <Tag h={10}>
-                          <a href="#">Jewellery</a>
-                        </Tag>
-                      </li>
-                      <li>
-                        <a href="#">Fashion Jewellery</a>
-                      </li>
-                      <li>
-                        <a href="#">Imitation Jewellery</a>
-                      </li>
-                      <li>
-                        <a href="#">Earrings</a>
-                      </li>
-                      <li>
-                        <Tag h={10}>
-                          <a href="#">Footwear</a>
-                        </Tag>
-                      </li>
-                      <li>
-                        <a href="#">Flats</a>
-                      </li>
-                      <li>
-                        <a href="#">Heels</a>
-                      </li>
-                      <li>
-                        <a href="#">Casual Shoes</a>
-                      </li>
-                      <li>
-                        <a href="#">Flip Flops</a>
-                      </li>
-                      <li>
-                        <a href="#">Heels</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="row">
-                    <ul className="mega-links">
-                      <li>
-                        <Tag h={10}>
-                          <a href="#">Brands</a>
-                        </Tag>
-                      </li>
-                      <li>
-                        <a href="#">Karigari</a>
-                      </li>
-                      <li>
-                        <a href="#">Aurelia</a>
-                      </li>
-                      <li>
-                        <a href="#">Alcis</a>
-                      </li>
-                      <li>
-                        <a href="#">Shaily</a>
-                      </li>
-                      <li>
-                        <a href="#">Cottinfab</a>
-                      </li>
-                      <li>
-                        <a href="#">Ksut</a>
-                      </li>
-                      <li>
-                        <a href="#">Oxolloxo</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <Link>
-                <a
-                  href="#"
-                  className="desktop-item"
-                  style={{ marginRight: "23px" }}
-                >
-                  KIDS
-                </a>
-                <input type="checkbox" id="showMega" />
-                <label htmlFor="showMega" className="mobile-item">
-                  KIDS
-                </label>
-              </Link>
               <div className="mega-box">
                 <div className="content">
                   <div className="row">
@@ -651,7 +462,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Box w={[0, 0, 100, 150, 450, 450]} />
+              <Box w={[0, 0, 100, 150, 450, 650]} />
             </li>
             <li>
               <button color="blue" onClick={onOpen}>
@@ -683,6 +494,7 @@ const Navbar = () => {
                         fontSize="20px"
                       />
                       <IconButton
+                        onClick={()=>navigate(`/search?search=${text}`)}
                         h={"54px"}
                         w={"69px"}
                         bg="#8BC34A"
@@ -717,7 +529,12 @@ const Navbar = () => {
                     alt=""
                     style={{ width: "60px", margin: "15px" }}
                   />
-                  <label className="mobile-item" style={{paddingLeft:'40px'}}>PROFILE</label>
+                  <label
+                    className="mobile-item"
+                    style={{ paddingLeft: "40px" }}
+                  >
+                    PROFILE
+                  </label>
                 </li>
               </PopoverTrigger>
 
