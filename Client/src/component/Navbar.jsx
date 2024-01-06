@@ -50,7 +50,7 @@ const Navbar = () => {
               <i className="fas fa-times"></i>
             </label>
             <li>
-              <Link>
+              <Link to={'/women'}>
                 <a href="#" className="desktop-item">
                   WOMEN
                 </a>
@@ -244,14 +244,14 @@ const Navbar = () => {
               </div>
             </li>
             <li>
-              <Link to="/mens">
+              <Link to="/men">
                 <a href="#" className="desktop-item">
                   MEN
                 </a>
               </Link>
               <input type="checkbox" id="showMega" />
               <label htmlFor="showMega" className="mobile-item">
-                <Link to="/mens">MEN</Link>
+                <Link to="/men">MEN</Link>
               </label>
               <div className="mega-box">
                 <div className="content">

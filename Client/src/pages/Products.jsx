@@ -17,7 +17,7 @@ import SideBar from "../component/SideBar";
 import { getProduct } from "../Redux/UserReducer/action";
 import { useDispatch, useSelector } from "react-redux";
 
-const Mens = () => {
+const Products = ({gender}) => {
   const [limit, setLimit] = useState(9);
   const [order, setOrder] = useState("");
   const [brand, setBrand] = useState("");
@@ -27,7 +27,7 @@ const Mens = () => {
   );
 
   useEffect(() => {
-    const params={gender:'male', page: 1, limit }
+    const params={gender, page: 1, limit }
     
     if(order){
       params.sort='price';
@@ -43,7 +43,7 @@ const Mens = () => {
         params,
       })
     );
-  }, [limit, order, brand]);
+  }, [limit, order, brand,gender]);
 
   const handleLimit = () => {
     if (limit > 100) {
@@ -61,11 +61,11 @@ const Mens = () => {
     <Container maxW="90vw">
       {/* <HStack> */}
       <SideBar setBrand={setBrand} setOrder={setOrder} />
-      <Box ml={"250px"}>
+      <Box ml={[0,0,0,'250px','250px','250px']}>
         <Text color={"gray"} fontSize="14" marginBottom={5}>
           Home » Men » clothing » top wear
         </Text>
-        <SimpleGrid columns={[1, 1, 2, 2, 3, 3]} spacing={[3, 3, 5, 5, 5, 5]}>
+        <SimpleGrid columns={[1, 2, 2, 2, 3, 3]} spacing={[3, 3, 5, 5, 5, 5]}>
           {loading
             ? new Array(9).fill(0).map(() => {
                 return <Skeleton height={"500px"} width={"380px"} />;
@@ -75,8 +75,8 @@ const Mens = () => {
                   <ProductCard
                     title={el.title}
                     brand={el.brand}
-                    id={el.id}
-                    key={el.id}
+                    id={el._id}
+                    key={el._id}
                     price={el.price}
                     img1={el.img1}
                     img2={el.img2}
@@ -96,4 +96,4 @@ const Mens = () => {
   );
 };
 
-export default Mens;
+export default Products;

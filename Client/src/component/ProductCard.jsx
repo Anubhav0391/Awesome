@@ -16,7 +16,7 @@ import React from "react";
 const ProductCard = ({ id, title, brand, price, img1 }) => {
   return (
     <Link to={`/mens/${id}`}>
-      <Card maxW="400px" boxShadow="base" borderRadius={0} cursor="pointer">
+      <Card maxW="400px" h={'100%'} boxShadow="base" borderRadius={0} cursor="pointer">
         <Text m={2} fontSize={13} fontWeight={500}>
           # {title.substring(0, 45)}
         </Text>
