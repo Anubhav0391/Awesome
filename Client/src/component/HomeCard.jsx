@@ -10,9 +10,12 @@ import {
 
 import React from "react";
 
-const HomeCard = ({ designer, followers, id, image, likes }) => {
+const HomeCard = ({title, designer, followers, id, image, likes }) => {
   return (
     <Card maxW="400px" boxShadow="base" >
+        <Text m={'16px 0 -2px 16px'} >
+          {title.substring(0, 45).toUpperCase()}
+        </Text>
       <Image objectFit="cover" m={2} src={image?image:'alternative.png'} alt="Image deleted" />
 
       <Box>

@@ -46,17 +46,18 @@ const Home = () => {
         >
           {loading
             ? new Array(9).fill(0).map(() => {
-                return <Skeleton height={"350px"} width={"300px"} />;
+                return <Skeleton height={"450px"} w={"380px"} />;
               })
             : home?.map((el) => {
                 return (
                   <HomeCard
                     designer={el.designer}
                     followers={el.followers}
-                    id={el.id}
-                    key={el.id}
+                    id={el._id}
+                    key={el._id}
                     image={el.image}
                     likes={el.likes}
+                    title={el.title}
                   />
                 );
               })}
