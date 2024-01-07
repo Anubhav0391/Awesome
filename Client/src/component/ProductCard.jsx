@@ -17,8 +17,8 @@ import React, { useState } from "react";
 const ProductCard = ({ id, title, brand, price, img1 }) => {
   const [like, setLike] = useState(false);
   return (
-    <Card maxW="400px" h={"100%"} boxShadow="base" borderRadius={0}>
-      <Link to={`/mens/${id}`}>
+    <Card maxW={{base:'100%',md:'400px'}} h={"100%"} boxShadow="base" borderRadius={0}>
+      <Link to={`/products/${id}`}>
         <Text m={2} fontSize={13} fontWeight={500}>
           # {title.substring(0, 45)}
         </Text>

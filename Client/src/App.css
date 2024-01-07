@@ -1,3 +1,7 @@
+.slick-prev,
+.slick-next {
+  color: black !important; /* Use !important to override any default styles */
+}
 /* .App {
   text-align: center;
 }

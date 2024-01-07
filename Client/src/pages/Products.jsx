@@ -67,13 +67,13 @@ const Products = ({gender}) => {
       Something bad happened. Please try again !
     </Heading>
   ) : (
-    <Container maxW="90vw">
+    <Container maxW={{base:'99vw',md:'90vw'}}>
       <SideBar setBrand={setBrand} setOrder={setOrder} />
       <Box ml={[0,0,0,'250px','250px','250px']}>
         <Text color={"gray"} fontSize="14" marginBottom={5}>
           Home » {gender=='male'?"Men":"Women"} » clothing » top wear
         </Text>
-        <SimpleGrid columns={[1, 2, 2, 2, 3, 3]} spacing={[3, 3, 5, 5, 5, 5]}>
+        <SimpleGrid columns={[1, 1, 2, 2, 3, 3]} spacing={[3, 3, 5, 5, 5, 5]}>
           {loading
             ? new Array(9).fill(0).map(() => {
                 return <Skeleton height={"500px"} width={"380px"} />;

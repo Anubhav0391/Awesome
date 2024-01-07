@@ -5,7 +5,7 @@ const homeSchema = mongoose.Schema({
   image: { type: String, required: true },
   designer: { type: String, required: true },
   followers: { type: String },
-  like: { type: Number },
+  likes: { type: Number },
 });
 
 const HomeModel = mongoose.model("home", homeSchema);

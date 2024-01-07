@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
-import { Box, Text, VStack, Avatar } from "@chakra-ui/react";
+import {
+  Box,
+  Text,
+  VStack,
+  Avatar,
+  Img,
+  Button,
+  HStack,
+} from "@chakra-ui/react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -154,5 +162,28 @@ export function Swipe() {
         </Box>
       </Slider>
     </div>
+  );
+}
+
+export function SingleProductSlider({ img1, img2, img3 }) {
+  const [index, setIndex] = useState(0);
+  const images = [img1, img2, img3];
+
+  
+  return (
+    <HStack pos={'relative'} w={{base:'100%', xl:'50vw'}} mb={4}>
+      <Button pos={'absolute'} left={'-10px'} _hover={{color:'white',bg:'black'}} _disabled={{bg:'#777777'}} px={1} borderLeftRadius={0} borderRightRadius={'50%'} onClick={()=>setIndex(p=>p-1)} isDisabled={index === 0} color={"white"} bg={"black"}>
+        {"<"}
+      </Button>
+      <HStack gap={'2%'}>
+        <Img w={{base:'100%',sm:'49%'}} src={images[index]}/>
+        <Img w={'49%'} src={images[index+1]} display={{base:'none',sm:'block'}}/>
+        {/* <Box ></Box> */}
+      </HStack>
+
+      <Button pos={'absolute'} right={'-10px'} _hover={{color:'white',bg:'black'}} _disabled={{bg:'#777777'}} px={1} borderLeftRadius={'50%'} borderRightRadius={0}  onClick={()=>setIndex(p=>p+1)} isDisabled={index === 1} color={"white"} bg={"black"}>
+        {">"}
+      </Button>
+    </HStack>
   );
 }

@@ -35,7 +35,7 @@ const Home = () => {
   return error ? (
     <Heading my={320} color={'red'}>Something bad happened. Please try again !</Heading>
   ) : (
-    <Container maxW="1200px">
+    <Container maxW={{base:'99vw',md:'1200px'}}>
       <Swipe />
       <PauseOnHover />
       <Center>
