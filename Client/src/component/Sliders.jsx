@@ -171,7 +171,7 @@ export function SingleProductSlider({ img1, img2, img3 }) {
 
   
   return (
-    <HStack pos={'relative'} w={{base:'100%', xl:'50vw'}} mb={4}>
+    <HStack pos={'sticky'} top={'70px'} w={{base:'100%', xl:'50vw'}} mb={4}>
       <Button pos={'absolute'} left={'-10px'} _hover={{color:'white',bg:'black'}} _disabled={{bg:'#777777'}} px={1} borderLeftRadius={0} borderRightRadius={'50%'} onClick={()=>setIndex(p=>p-1)} isDisabled={index === 0} color={"white"} bg={"black"}>
         {"<"}
       </Button>

@@ -14,7 +14,7 @@ const HomeCard = ({ title, designer, followers, id, image, likes }) => {
   }
 
   return (
-    <Card maxW={{base:'100vh',md:'400px'}} boxShadow="base">
+    <Card maxW={{base:'100%',md:'400px'}} boxShadow="base">
       <Text m={"16px 0 -2px 16px"}>{title.substring(0, 45).toUpperCase()}</Text>
       <Image
         objectFit="cover"

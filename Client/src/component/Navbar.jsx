@@ -470,7 +470,7 @@ const Navbar = ({ setOpacity }) => {
                   className="icon"
                   src={search}
                   alt=""
-                  style={{ width: "60px", marginTop: "30px" }}
+                  style={{ width: "82px", marginTop: "30px" }}
                 />
                 <label
                   style={{ marginLeft: "20px" }}
@@ -546,6 +546,7 @@ const Navbar = ({ setOpacity }) => {
                     </Heading>
                     <Text my={2}>To view account details</Text>
                     <Button
+                      onClick={()=>navigate('/auth/login')}
                       fontSize={14}
                       my={1}
                       colorScheme="white"

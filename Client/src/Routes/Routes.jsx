@@ -4,6 +4,7 @@ import Home from '../pages/Home'
 import NotFound from '../pages/NotFound'
 import Products from '../pages/Products'
 import SingleProduct from '../pages/SingleProduct'
+import Auth from '../pages/Auth'
 
 const AllRoutes = () => {
 
@@ -14,6 +15,7 @@ const AllRoutes = () => {
         <Route path='/women' element={<Products gender={"female"}/>}/>
         <Route path='/search' element={<Products/>}/>
         <Route path='/products/:id' element={<SingleProduct/>}/>
+        <Route path='/auth/:route' element={<Auth/>}/>
         <Route path='*' element={<NotFound/>}/>
     </Routes>
   )

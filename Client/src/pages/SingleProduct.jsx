@@ -78,7 +78,7 @@ const SingleProduct = () => {
                 color={size===el&&'white'}
                 borderRadius={"10px"}
                 textAlign={"center"}
-                _hover={{ color: "red" }}
+                _hover={{ color: '#D32A7F' }}
                 cursor={"pointer"}
                 fontSize={20}
                 h={"35px"}
