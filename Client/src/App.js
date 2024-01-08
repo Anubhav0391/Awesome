@@ -1,6 +1,5 @@
 import { Box, Center } from "@chakra-ui/react";
 import Navbar from "./component/Navbar";
-import Footer from "./component/Footer";
 import AllRoutes from "./Routes/Routes";
 import { useState } from "react";
 
@@ -17,7 +16,7 @@ function App() {
         paddingTop={10}
       >
         <Center>{<AllRoutes />}</Center>
-        <Footer />
+        
       </Box>
     </>
   );

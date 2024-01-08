@@ -14,13 +14,13 @@ cartRouter.get("/", async (req, res) => {
 });
 
 cartRouter.post("/", async (req, res) => {
-  req.body.quantity = 1;
-
   try {
     const alreadyAdded = await CartModel.find(req.body);
-    if (alreadyAdded) {
+    console.log(alreadyAdded)
+    if (alreadyAdded.length) {
       res.status(400).send({ msg: "Already added to the cart" });
     } else {
+      req.body.quantity = 1;
       const Cart = new CartModel(req.body);
       await Cart.save();
       res.status(200).send({ msg: "Product added to the cart" });

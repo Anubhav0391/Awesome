@@ -75,8 +75,8 @@ const Products = ({gender}) => {
         </Text>
         <SimpleGrid columns={[1, 1, 2, 2, 3, 3]} spacing={[3, 3, 5, 5, 5, 5]}>
           {loading
-            ? new Array(9).fill(0).map(() => {
-                return <Skeleton height={"500px"} width={"380px"} />;
+            ? new Array(9).fill(0).map((_,i) => {
+                return <Skeleton key={i} height={"500px"} width={"380px"} />;
               })
             : products?.map((el) => {
                 return (

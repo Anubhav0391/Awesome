@@ -1,14 +1,13 @@
-import { useContext } from 'react';
 import { Navigate, useLocation} from 'react-router-dom'
-import {Context} from '../Context/Context';
+import { useSelector } from 'react-redux';
 
 export default function PrivateRoute({children}){
-    const {user}=useContext(Context);
+    const {token}=useSelector(store=>store.UserReducer)
     const location = useLocation();
     const Data = location.pathname || "/";
 
-    if(!user){
-        return <Navigate to="/login" replace state={ Data }/>
+    if(!token){
+        return <Navigate to="/auth/login" replace state={ Data }/>
     }
 
     return children;

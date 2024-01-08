@@ -5,6 +5,8 @@ import NotFound from '../pages/NotFound'
 import Products from '../pages/Products'
 import SingleProduct from '../pages/SingleProduct'
 import Auth from '../pages/Auth'
+import PrivateRoute from './Private'
+import Cart from '../pages/Cart'
 
 const AllRoutes = () => {
 
@@ -16,6 +18,7 @@ const AllRoutes = () => {
         <Route path='/search' element={<Products/>}/>
         <Route path='/products/:id' element={<SingleProduct/>}/>
         <Route path='/auth/:route' element={<Auth/>}/>
+        <Route path='/cart' element={<PrivateRoute><Cart/></PrivateRoute>}/>
         <Route path='*' element={<NotFound/>}/>
     </Routes>
   )

@@ -6,6 +6,7 @@ import {
   UPDATE_SUCCESS,
   GET_SINGLE_PRODUCT_SUCCESS,
   AUTH_SUCCESS,
+  LOGOUT_SUCCESS,
 } from "./actionTypes";
 
 const initialState = {
@@ -34,7 +35,9 @@ export const reducer = (state = initialState, { type, payload }) => {
     case UPDATE_SUCCESS:
       return { ...state, loading: false };
     case AUTH_SUCCESS:
-      return { ...state, loading: false ,token:payload?.token, user:payload?.user};
+      return { ...state, loading: false, token:payload?.token, user:payload?.user};
+    case LOGOUT_SUCCESS:
+      return { ...state, loading: false, token:'', user:{}};
     default:
       return state;
   }

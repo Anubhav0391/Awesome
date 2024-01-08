@@ -11,7 +11,7 @@ import {
   useToast,
   Img,
 } from "@chakra-ui/react";
-import { useParams } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import signupheader from "../Images/signupheader.jpeg";
 import loginheader from "../Images/loginheader.PNG";
 import { useDispatch, useSelector } from "react-redux";
@@ -27,7 +27,9 @@ let initialValue = {
 const Auth = () => {
   const { route } = useParams();
   const toast = useToast();
-  const { loading } = useSelector((store) => store.UserReducer);
+  const navigate=useNavigate()
+  const location=useLocation()
+  const { loading,token } = useSelector((store) => store.UserReducer);
   const [formValues, setFormValues] = useState(initialValue);
   const dispatch = useDispatch();
 
@@ -43,7 +45,7 @@ const Auth = () => {
       position: "top",
       title,
       status,
-      duration: 1000,
+      duration: 1500,
       isClosable: true,
     });
   };
@@ -57,11 +59,11 @@ const Auth = () => {
       return;
     }
 
-    dispatch(authenticate(formValues, route, createAlert));
+    dispatch(authenticate(formValues, route, createAlert,navigate,location));
   };
 
   return (
-    <Box mx="auto" w={{ base: "80%", md: "30%" }} my={"48px"}>
+    <Box mx="auto" w={{ base: "95%", md: "30%" }} m={"35px 0 97px"} >
       <form onSubmit={handleSubmit}>
         <Stack spacing="5">
           <Img src={route === "register" ? signupheader : loginheader} />

@@ -29,11 +29,15 @@ import {
   Img,
 } from "@chakra-ui/react";
 import { Link, useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { logout } from "../Redux/UserReducer/action";
 
 const Navbar = ({ setOpacity }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [text, setText] = useState("");
+  const {token,user}=useSelector(store=>store.UserReducer)
   const navigate=useNavigate()
+  const dispatch=useDispatch()
 
   return (
     <div>
@@ -462,15 +466,15 @@ const Navbar = ({ setOpacity }) => {
               </Link>
             </li>
             <li>
-              <Box w={[0, 0, 100, 150, 450, 650]} />
+              <Box w={[0, 0, 100, 150, 450, 500]} />
             </li>
             <li>
               <button color="blue" onClick={onOpen}>
                 <img
                   className="icon"
                   src={search}
-                  alt=""
-                  style={{ width: "82px", marginTop: "30px" }}
+                  alt="nav-search"
+                  style={{ width: "58px", marginTop: "30px" }}
                 />
                 <label
                   style={{ marginLeft: "20px" }}
@@ -542,17 +546,17 @@ const Navbar = ({ setOpacity }) => {
                 <PopoverContent border="none" p={5} mt={-5}>
                   <PopoverHeader>
                     <Heading my={2} fontSize={16}>
-                      WELCOME
+                      WELCOME {token&& user.name.toUpperCase()}
                     </Heading>
-                    <Text my={2}>To view account details</Text>
+                    {!token&&<Text my={2}>To view account details</Text>}
                     <Button
-                      onClick={()=>navigate('/auth/login')}
+                      onClick={()=>token?dispatch(logout()):navigate('/auth/login')}
                       fontSize={14}
                       my={1}
                       colorScheme="white"
                       bgGradient="linear(to-r, rgb(234, 63, 92), rgb(147, 7, 147))"
                     >
-                      LOGIN
+                      {token?"LOGOUT":'LOGIN'}
                     </Button>
                   </PopoverHeader>
                   <PopoverBody>

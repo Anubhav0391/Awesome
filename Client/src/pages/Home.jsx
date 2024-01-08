@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { getHome } from "../Redux/UserReducer/action";
+import Footer from "../component/Footer";
 
 const Home = () => {
   const [limit, setLimit] = useState(6);
@@ -68,6 +69,7 @@ const Home = () => {
           {loading ? <Spinner mx={10} /> : "SHOW MORE"}
         </Button>
       </Center>
+      <Footer />
     </Container>
   );
 };
