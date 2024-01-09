@@ -72,7 +72,7 @@ const SingleProduct = () => {
       Something bad happened. Please try again !
     </Heading>
   ) : loading ? (
-    <Skeleton h={"80vh"} w={"90vw"} />
+    <Skeleton h={"75vh"} w={"90vw"} />
   ) : (
     <Container maxW={{ base: "99vw", md: "90vw" }}>
       <Text color={"gray"} fontSize="14" marginBottom={5}>

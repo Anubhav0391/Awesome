@@ -7,6 +7,7 @@ import {
   GET_SINGLE_PRODUCT_SUCCESS,
   AUTH_SUCCESS,
   LOGOUT_SUCCESS,
+  GET_CART_SUCCESS,
 } from "./actionTypes";
 
 const initialState = {
@@ -32,6 +33,8 @@ export const reducer = (state = initialState, { type, payload }) => {
       return { ...state, loading: false, products: payload };
     case GET_SINGLE_PRODUCT_SUCCESS:
       return { ...state, loading: false, singleProduct: payload };
+    case GET_CART_SUCCESS:
+      return { ...state, loading: false, cart: payload };
     case UPDATE_SUCCESS:
       return { ...state, loading: false };
     case AUTH_SUCCESS:

@@ -33,8 +33,8 @@ cartRouter.post("/", async (req, res) => {
 cartRouter.patch("/:id", async (req, res) => {
   const id = req.params.id;
   try {
-    await CartModel.findByIdAndUpdate({ _id: id }, req.body);
-    res.status(200).send({ msg: "Cart updated successfully" });
+    const a=await CartModel.findByIdAndUpdate({ _id: id }, req.body);
+    res.status(200).send({ msg: "Cart updated successfully",a });
   } catch (err) {
     res.status(400).send({ err: err.message });
   }
@@ -44,7 +44,7 @@ cartRouter.delete("/:id", async (req, res) => {
   const id = req.params.id;
   try {
     await CartModel.findByIdAndDelete({ _id: id });
-    res.status(200).send({ msg: "Product deleted from the cart" });
+    res.status(200).send({ msg: "Product deleted from the cart"});
   } catch (err) {
     res.status(400).send({ err: err.message });
   }

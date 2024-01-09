@@ -8,10 +8,11 @@ import {
   GET_SINGLE_PRODUCT_SUCCESS,
   AUTH_SUCCESS,
   LOGOUT_SUCCESS,
+  GET_CART_SUCCESS,
 } from "./actionTypes";
 
-const url = "https://weak-gold-gazelle-suit.cyclic.app";
-// const url='http://localhost:8080'
+// const url = "https://weak-gold-gazelle-suit.cyclic.app";
+const url='http://localhost:8080'
 
 export const getHome = (obj) => (dispatch) => {
   dispatch({ type: REQUEST });
@@ -24,6 +25,57 @@ export const getHome = (obj) => (dispatch) => {
     .catch(() => {
       dispatch({ type: FAILURE });
     });
+};
+
+export const getCart = (token) => (dispatch) => {
+    dispatch({ type: REQUEST });
+  
+    axios
+      .get(`${url}/cart`, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
+      .then((res) => {
+        dispatch({ type: GET_CART_SUCCESS, payload: res.data });
+      })
+      .catch(() => {
+        dispatch({ type: FAILURE });
+      });
+};
+
+export const deleteFromCart = (token,id) => (dispatch) => {
+    dispatch({ type: REQUEST });
+  
+    return axios
+      .delete(`${url}/cart/${id}`, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
+      .then(() => {
+        dispatch({type:UPDATE_SUCCESS})
+      })
+      .catch((err) => {
+        console.log(err)
+      });
+};
+
+export const updateQty = (obj,token,id) => (dispatch) => {
+    // dispatch({ type: REQUEST });
+    return axios
+      .patch(`${url}/cart/${id}`,obj, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
+      .then((res) => {
+        console.log(res)
+        dispatch({type:UPDATE_SUCCESS})
+      })
+      .catch((err) => {
+        console.log(err)
+      });
 };
 
 export const updateHome = (obj, id) => (dispatch) => {
